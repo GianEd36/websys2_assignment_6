@@ -1,0 +1,79 @@
+Review uploaded topic materials lesson 3. 
+Check optional and mandatory section of the route. 
+Apply on the assignment below:
+
+Your task is to create (no controllers) that accept and display them properly.
+
+
+All information must be taken from the URL and passed to the view.
+
+add file for all screenshot of your output
+push all your code on your repo
+Comment your direct link of your repo
+
+Instructions
+Use to define all routes.
+Create all views inside .
+Do use controllers.
+Each route must use .
+At least one route must contain an .
+Display all parameter values clearly in the view.
+Provide default values for optional parameters.
+
+
+Problem 1: Student Profile Page
+The system should allow users to view a student’s basic information using the student’s ID and name.
+
+When a user visits the page using a URL that contains the student ID and name, 
+the system must display both values on the screen.
+
+Example URL:
+/student/2025/Maria
+
+The page should show:
+Student ID
+Student Name
+
+
+Problem 2: Course Enrollment Page
+The system should display the course and year level of a student.
+
+The course is required, but the year level is optional. 
+If the year level is not provided in the URL, the system must display by default.
+
+Example URLs:
+/course/BSIT/3
+/course/BSIT
+
+The page should show:
+Course
+Year Level
+
+
+Problem 3: OJT Company Information Page
+The system should display information about a student’s OJT placement.
+The URL contains the company name and city where the company is located. 
+It may also include information about whether the company provides an allowance.
+If the allowance information is not included, the system should automatically display .
+
+Example URLs:
+/ojt/ABC/Manila/Yes 
+/ojt/ABC/Manila
+
+The page should show:
+Company Name
+City
+Allowance (Yes or No)
+
+
+Problem 4: Event Registration Page
+The system should display registration details for students joining school events.
+The URL contains the event name, participant name, and year level. All parameters are required.
+
+Example URL:
+/event/Workshop/Juan/2
+
+The page should show:
+Event Name
+Participant Name
+Year Level
